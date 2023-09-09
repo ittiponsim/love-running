@@ -30,11 +30,11 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 }
-
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -42,17 +42,21 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
-#menu > li {
+
+#menu>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -64,6 +68,7 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
