@@ -1,9 +1,10 @@
 /* Asterisk wildcad selector to override default styles added by the browser*/
 * {
-    padding: ;
-    margin: ;
-    box-sizing: ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -12,19 +13,19 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
 
-/* Header */
-header {
-    background-color: lightcoral;
-}
+    /* Header */
+    header {
+        background-color: lightcoral;
+    }
 
-/*Main content*/
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
+    /*Main content*/
+    main {
+        background-color: lightblue;
+        /* Make main element take up any surplus space to push footer down */
         flex: 1 0 auto;
-}
+    }
 
-/* Footer */
-footer {
-    background-color: orange;
-}
+    /* Footer */
+    footer {
+        background-color: orange;
+    }
