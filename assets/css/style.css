@@ -18,6 +18,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -34,13 +43,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 #menu {
@@ -84,13 +86,12 @@ nav {
 
 /* Main content */
 main {
-
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-//* Hero section */
+/* Hero section */
 #hero {
     height: 600px;
     width: 100%;
@@ -115,7 +116,8 @@ main {
     color: #ffffff;
 }
 
-ks {
+/* Footer */
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -163,6 +165,12 @@ ks {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+
+    /* Hero image */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
